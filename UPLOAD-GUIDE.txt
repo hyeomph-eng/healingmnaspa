@@ -1,0 +1,11 @@
+HEALING M&A SPA — GitHub one-time upload package
+
+1. Open the healingmnaspa repository on GitHub.
+2. Choose Add file > Upload files.
+3. Open this folder and press Command+A.
+4. Drag all selected contents into GitHub.
+5. Commit message: Upload complete Healing M&A Spa website
+6. Select Commit directly to the main branch and click Commit changes.
+
+This package contains fewer than 100 files and is optimized for GitHub web upload.
+Do not upload a ZIP file. Upload the contents of this folder.

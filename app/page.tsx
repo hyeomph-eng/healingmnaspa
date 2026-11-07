@@ -29,36 +29,36 @@ function FacebookIcon() {
 }
 
 const interiorSlides = [
-  { src: '/interior/reception.png', alt: 'Healing M&A Spa reception' },
-  { src: '/interior/lobby.png', alt: 'Healing M&A Spa lobby' },
-  { src: '/interior/foot-spa.png', alt: 'Healing M&A Spa foot spa' },
-  { src: '/interior/massage-room.png', alt: 'Healing M&A Spa massage room' },
-  { src: '/interior/treatment-room.png', alt: 'Healing M&A Spa treatment room' },
-  { src: '/interior/consultation-room.png', alt: 'Healing M&A Spa consultation room' },
+  { src: '/interior/reception.jpg', alt: 'Healing M&A Spa reception' },
+  { src: '/interior/lobby.jpg', alt: 'Healing M&A Spa lobby' },
+  { src: '/interior/foot-spa.jpg', alt: 'Healing M&A Spa foot spa' },
+  { src: '/interior/massage-room.jpg', alt: 'Healing M&A Spa massage room' },
+  { src: '/interior/treatment-room.jpg', alt: 'Healing M&A Spa treatment room' },
+  { src: '/interior/consultation-room.jpg', alt: 'Healing M&A Spa consultation room' },
 ];
 
 const programs: Program[] = [
-  { key: 'Healing Special', image: '/interior/massage-room.png', video: '/videos/01_healing_special.mp4', poster: '/videos/01_healing_special.jpg', time: '90 / 120', price: '1,500 PHP~', copy: {
+  { key: 'Healing Special', image: '/interior/massage-room.jpg', video: '/videos/01_healing_special.mp4', poster: '/videos/01_healing_special.jpg', time: '90 / 120', price: '1,500 PHP~', copy: {
     ja: ['ヒーリングスペシャル', 'アロマオイルと温かなオリーブジェイドストーンで、筋肉の緊張をやわらげるプレミアムケア。', '人気'],
     ko: ['힐링 스페셜', '아로마 오일과 따뜻한 올리브 제이드 스톤으로 근육의 긴장을 부드럽게 풀어주는 프리미엄 케어.', '인기'],
     en: ['Healing Special', 'Premium care with aroma oil and warm olive jade stones to release muscle tension.', 'Popular'],
   }},
-  { key: 'Aroma Swedish', image: '/images/hero.png', video: '/videos/03_aroma_swedish.mp4', poster: '/videos/03_aroma_swedish.jpg', time: '60 / 90 / 120', price: '1,000 PHP~', copy: {
+  { key: 'Aroma Swedish', image: '/images/hero.jpg', video: '/videos/03_aroma_swedish.mp4', poster: '/videos/03_aroma_swedish.jpg', time: '60 / 90 / 120', price: '1,000 PHP~', copy: {
     ja: ['アロマスウェディッシュ', 'お好みのプレミアムアロマオイルとヒーリング独自の手技で、深いリラックスへ導きます。', '定番'],
     ko: ['아로마 스웨디시', '취향에 맞춘 프리미엄 아로마 오일과 힐링만의 테크닉으로 깊은 휴식을 선사합니다.', '베스트'],
     en: ['Aroma Swedish', 'A personalized massage with your choice of premium aroma oil and Healing’s signature techniques.', 'Essential'],
   }},
-  { key: 'Philippine Hilot', image: '/images/hilot.png', video: '/videos/04_philippine_hilot.mp4', poster: '/videos/04_philippine_hilot.jpg', time: '90 / 120', price: '1,500 PHP~', copy: {
+  { key: 'Philippine Hilot', image: '/images/hilot.jpg', video: '/videos/04_philippine_hilot.mp4', poster: '/videos/04_philippine_hilot.jpg', time: '90 / 120', price: '1,500 PHP~', copy: {
     ja: ['フィリピンヒロットマッサージ', '温めたバナナリーフとバージンココナッツオイルを使い、滞りを丁寧に見つけて整えます。', '伝統'],
     ko: ['필리핀 힐롯 마사지', '따뜻한 바나나잎과 버진 코코넛 오일을 사용해 막힌 에너지의 흐름을 세심하게 케어합니다.', '전통'],
     en: ['Philippine Hilot Massage', 'Warm banana leaves and virgin coconut oil support traditional, targeted full-body care.', 'Traditional'],
   }},
-  { key: 'Feather Like Shoulder', image: '/images/frozen-back.png', video: '/videos/02_feather_shoulder.mp4', poster: '/videos/02_feather_shoulder.jpg', time: '90', price: '2,000 PHP', copy: {
+  { key: 'Feather Like Shoulder', image: '/images/frozen-back.jpg', video: '/videos/02_feather_shoulder.mp4', poster: '/videos/02_feather_shoulder.jpg', time: '90', price: '2,000 PHP', copy: {
     ja: ['空飛ぶ肩', '背中・肩・首・頭を集中ケア。ブレンドオイルと遠赤外線温熱で上半身を深くほぐします。', '肩集中ケア'],
     ko: ['하늘나는 어깨', '등·어깨·목·두피를 집중 관리하고 블렌딩 오일과 원적외선 온열로 상체를 깊이 이완합니다.', '어깨 집중'],
     en: ['Feather Like Shoulder', 'Focused back, shoulder, neck, and head care with blended oils and far-infrared warmth.', 'Focused Shoulder'],
   }},
-  { key: "Sophia's Signature", image: '/images/royal-aroma-facial.png', video: '/videos/05_sophia_signature.mp4', poster: '/videos/05_sophia_signature.jpg', time: '120', price: '5,800 PHP', copy: {
+  { key: "Sophia's Signature", image: '/images/royal-aroma-facial.jpg', video: '/videos/05_sophia_signature.mp4', poster: '/videos/05_sophia_signature.jpg', time: '120', price: '5,800 PHP', copy: {
     ja: ['Sophia’s Signature', 'ベビーフェイスアロマフェイシャルとデコルテ付き全身マッサージを一度に。', 'Signature'],
     ko: ['소피아 시그니처', '베이비 페이스 아로마 페이셜과 데콜테를 포함한 전신 마사지를 한 번에 경험하는 시그니처 코스.', 'Signature'],
     en: ["Sophia’s Signature", 'A signature full-body massage with décolleté and Baby Face aroma facial care.', 'Signature'],
