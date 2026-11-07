@@ -5,6 +5,12 @@
   "compatibility_date": "2026-05-15",
   "compatibility_flags": ["nodejs_compat"],
   "no_bundle": true,
+"routes": [
+  {
+    "pattern": "healingmnaspa.com",
+    "custom_domain": true
+  }
+],
   "assets": {
     "directory": "dist/client"
   },
