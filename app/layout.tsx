@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://healingmnaspacebu.inhye400.chatgpt.site'),
+  metadataBase: new URL('https://healingmnaspa.com'),
   title: 'Healing M&A Spa | Cebu Premium Spa',
   openGraph: {
     title: 'Healing M&A Spa | Cebu Premium Spa',
@@ -10,12 +10,12 @@ export const metadata: Metadata = {
     siteName: 'Healing M&A Spa',
     locale: 'ja_JP',
     type: 'website',
-    images: [{ url: '/healing-spa-share.jpg', width: 1200, height: 630, alt: 'Healing M&A Spa reception at One Paseo, Cebu' }],
+    images: [{ url: '/healing-spa-share.png', width: 1200, height: 630, alt: 'Healing M&A Spa Medical Aesthetic logo' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Healing M&A Spa | Cebu Premium Spa',
-    images: ['/healing-spa-share.jpg'],
+    images: ['/healing-spa-share.png'],
   },
 };
 
