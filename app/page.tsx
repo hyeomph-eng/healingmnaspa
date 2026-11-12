@@ -361,13 +361,13 @@ export default function Home() {
     <section id="promotion" className="scroll-mt-20 overflow-hidden bg-[#2f3d32] px-5 py-24 text-white lg:px-10 lg:py-28">
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[.82fr_1.18fr] lg:items-center">
         <div className="relative mx-auto w-full max-w-[470px] overflow-hidden rounded-[30px] border border-white/15 bg-[#211d19] shadow-[0_24px_70px_rgba(0,0,0,.22)]">
-          <video src="/videos/promo_rx_baby_facial.mp4" poster="/videos/promo_rx_baby_facial.jpg" aria-label="Rx Baby Facial promotion preview" autoPlay muted loop playsInline preload="metadata" className="aspect-[4/5] h-full w-full object-cover" />
+          <video src="/videos/promo_rx_baby_facial.mp4" poster="/videos/promo_rx_baby_facial.jpg" aria-label="NO PAIN NO DOWN TIME MTS promotion preview" autoPlay muted loop playsInline preload="metadata" className="aspect-[4/5] h-full w-full object-cover" />
           <span className="absolute left-5 top-5 rounded-full border border-[#f0d5a5]/55 bg-[#2b2520]/80 px-4 py-2 text-[11px] font-semibold tracking-[0.12em] text-[#f0d5a5] backdrop-blur-sm">{promotionCopy[lang].limited}</span>
         </div>
         <div>
           <p className="text-xs font-semibold tracking-[0.22em] text-[#d9b77c]">{promotionCopy[lang].eyebrow}</p>
           <h2 className={`mt-4 max-w-3xl ${sectionHeadingClass}`}>{promotionCopy[lang].title}</h2>
-          <p className="mt-7 font-heading text-3xl font-semibold tracking-[-0.02em] text-[#f3dfbd] sm:text-4xl">Rx Baby Facial</p>
+          <p className="mt-7 font-heading text-3xl font-semibold tracking-[-0.02em] text-[#f3dfbd] sm:text-4xl">NO PAIN NO DOWN TIME MTS</p>
           <p className="mt-5 max-w-2xl text-base leading-8 text-white/68">{promotionCopy[lang].body}</p>
           <div className="mt-8 flex flex-wrap items-end gap-x-8 gap-y-4 border-y border-white/15 py-6">
             <div><p className="text-[11px] tracking-[0.14em] text-white/42">{promotionCopy[lang].original}</p><p className="mt-2 text-xl text-white/45 line-through decoration-[#d9b77c]">6,000 PHP</p></div>
